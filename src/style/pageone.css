@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.page_header{
+    border: 2px solid #191919;
+    width: 500px;
+    height: 80px;
+    padding-top: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+button{
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .page_header{
+        width: 250px !important;
+        background-color: aqua;
+    }
+    button{
+        margin-bottom: 20px;
+    }
+}
